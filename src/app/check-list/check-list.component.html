@@ -1,1 +1,89 @@
-<p>check-list works!</p>
+<main>
+  <div id="movies">
+    <h3 id="goal">
+      <span>The Goal:</span> Watch every Marvel movie in some order (or no
+      order), during the month of March (or any month).
+    </h3>
+    <div id="title">
+      <h2>
+        The
+      </h2>
+      <img
+        id="marvelTitleLogo"
+        src="./../../assets/marvel.png"
+        alt="Marvel Logo"
+      />
+      <h2>Cinematic Universe</h2>
+    </div>
+
+    <div id="listName">
+      <h3>{{ orderTitle }}</h3>
+
+      <input (click)="toggleOrder()" type="checkbox" id="switch" /><label
+        for="switch"
+        >Toggle</label
+      >
+    </div>
+    <div id="films">
+      <div class="film" *ngFor="let movie of movies; index as i">
+        <h3>{{ movie.name }}</h3>
+        <div class="filmInfoContainer">
+          <img
+            class="poster"
+            src="./../../assets/{{ movie.poster }}"
+            alt="Image of {{ movie.name }}"
+          />
+          <div class="checklist">
+            <div class="checkbox" (click)="checkBox(i)">
+              <i *ngIf="movie.watched" class="fas fa-check"></i>
+            </div>
+
+            <img
+              src="./../../assets/{{ movie.streaming }}"
+              alt="Streaming Service"
+              class="logos"
+            />
+          </div>
+        </div>
+        <button (click)="showMoreInfo(i)">More Info</button>
+        <div class="moreInfo" *ngIf="movie.moreInfo">
+          <p><span>Description:</span> {{ movie.description }}</p>
+          <p>
+            Number of credit scenes :
+            <span> {{ movie.postScene }} </span>
+          </p>
+          <a href="{{ movie.imdb }}"
+            ><img src="./../../assets/imdb.png" alt="imdb logo" class="logos"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button (click)="showDefinition()">What is Marvel March?</button>
+  <div id="directions" *ngIf="showDirections">
+    <p>
+      Marvel March is the month when we celebrate the Marvel Cinematic Universe,
+      by watching all the Marvel Movies in what every order you want.
+    </p>
+    <p>
+      Below are two different orders, one is the chronological order based on
+      when each movie takes place. The other is a my variation of when the
+      movies were released. Some of the order is flipped based on my opinion of
+      when you should watch them.
+    </p>
+    <p>
+      I've built this as something to do while being self-isolated during the
+      Coronavirus outbreak, but that shouldn't stop you from using this resource
+      to watch anytime.
+    </p>
+  </div>
+  <button (click)="showViewingOptions()">Where do I watch these Movies?</button>
+  <div id="viewingOptions" *ngIf="viewingOptions">
+    <p>
+      Since Disney owns Marvel most can be found on Disney+, others can be found
+      on other streaming services, but all will require the necessary
+      subscriptions.
+    </p>
+  </div>
+</main>
