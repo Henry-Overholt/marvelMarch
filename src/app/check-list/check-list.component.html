@@ -1,8 +1,8 @@
 <main>
   <div id="movies">
     <h3 id="goal">
-      <span>The Goal:</span> Watch every Marvel movie in some order (or no
-      order), during the month of March (or any month).
+      <span>The Goal:</span> Watch every Marvel movie in some predetermine order
+      (or no order), during the month of March (or any month).
     </h3>
     <div id="title">
       <h2>
@@ -17,12 +17,24 @@
     </div>
 
     <div id="listName">
-      <h3>{{ orderTitle }}</h3>
-
-      <input (click)="toggleOrder()" type="checkbox" id="switch" /><label
+      <div id="buttons">
+        <button
+          [ngClass]="order == false ? 'selected' : 'unselected'"
+          (click)="sortSuggestedOrder()"
+        >
+          Suggested Order
+        </button>
+        <button
+          [ngClass]="order == true ? 'selected' : 'unselected'"
+          (click)="sortTimelineOrder()"
+        >
+          Timeline Order
+        </button>
+      </div>
+      <!-- <input (click)="toggleOrder()" type="checkbox" id="switch" /><label
         for="switch"
         >Toggle</label
-      >
+      > -->
     </div>
     <div id="films">
       <div class="film" *ngFor="let movie of movies; index as i">
@@ -64,25 +76,27 @@
   <div id="directions" *ngIf="showDirections">
     <p>
       Marvel March is the month when we celebrate the Marvel Cinematic Universe,
-      by watching all the Marvel Movies in what every order you want.
+      by watching all the Marvel Movies in what ever order you want.
     </p>
     <p>
       Above are two different orders, one is the chronological order based on
-      when each movie takes place. The other is a my variation of when the
-      movies were released. Some of the order is flipped based on my opinion of
-      when you should watch them.
+      when each movie takes place. The other is my variation of when the movies
+      were released. Some of the order is flipped based on my opinion of when
+      you should watch them.
     </p>
     <p>
       I've built this as something to do while being self-isolated during the
       Coronavirus outbreak, but that shouldn't stop you from using this resource
-      to watch anytime.
+      to watch anytime. It doesn't have to be March to watch all the Marvel
+      movies, it can be any month. Although it won't have the alliteration of
+      Marvel March, it will still be just as fun.
     </p>
   </div>
   <button (click)="showViewingOptions()">Where do I watch these Movies?</button>
   <div id="viewingOptions" *ngIf="viewingOptions">
     <p>
-      Since Disney owns Marvel most can be found on Disney+, others can be found
-      on other streaming services, but all will require the necessary
+      Since Disney owns Marvel most can be found on Disney +, others can be
+      found on different streaming services, but all will require the necessary
       subscriptions.
     </p>
   </div>

@@ -321,9 +321,11 @@ export class CheckListComponent implements OnInit {
     this.movies = this.films.sort((a, b) =>
       a.suggested > b.suggested ? 1 : -1
     );
+    this.order = false;
   }
   sortTimelineOrder() {
     this.movies = this.films.sort((a, b) => (a.timeline > b.timeline ? 1 : -1));
+    this.order = true;
   }
   showDefinition(): void {
     this.showDirections = !this.showDirections;
@@ -342,7 +344,7 @@ export class CheckListComponent implements OnInit {
     }
   }
   checkBox(number: number) {
-    this.films[number].watched = true;
+    this.films[number].watched = !this.films[number].watched;
   }
   showMoreInfo(number: number) {
     this.films[number].moreInfo = !this.films[number].moreInfo;
