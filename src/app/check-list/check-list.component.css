@@ -116,12 +116,13 @@ label:active:after {
   width: 100px;
 }
 .logos {
-  width: 50px;
+  width: 60px;
 }
 .checklist {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 .checkbox {
   width: 50px;
@@ -130,6 +131,7 @@ label:active:after {
   font-size: 40px;
   color: green;
   justify-content: center;
+  margin-bottom: 5px;
   align-items: center;
   border: 3px solid black;
 }

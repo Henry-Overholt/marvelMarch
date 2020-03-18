@@ -251,7 +251,7 @@ export class CheckListComponent implements OnInit {
       imdb: "https://www.imdb.com/title/tt4154756",
       description:
         "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-      streaming: "netflix.jpg",
+      streaming: "netflix.png",
       watched: false,
       postScene: "1",
       suggested: 18,
@@ -264,7 +264,7 @@ export class CheckListComponent implements OnInit {
       imdb: "https://www.imdb.com/title/tt5095030",
       description:
         "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
-      streaming: "netflix.jpg",
+      streaming: "netflix.png",
       watched: false,
       postScene: "2",
       suggested: 19,
@@ -311,8 +311,6 @@ export class CheckListComponent implements OnInit {
       timeline: 22
     }
   ];
-  timelineOrder: any[];
-  suggestedOrder: any[];
   movies: any[];
   constructor() {}
 
