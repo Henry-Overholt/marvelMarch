@@ -22,7 +22,9 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 0,
       moreInfo: false,
-      timeline: 2
+      timeline: 2,
+      stanLee:
+        "Tony mistakes him for Hugh Hefner on the Stark banquet red carpet."
     },
     {
       name: "Ironman 2 (2010)",
@@ -35,7 +37,9 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 1,
       moreInfo: false,
-      timeline: 3
+      timeline: 3,
+      stanLee:
+        "Tony mistakes him for Larry King after his intro speech at the Expo."
     },
     {
       name: "The Incredible Hulk (2008)",
@@ -48,7 +52,9 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 2,
       moreInfo: false,
-      timeline: 4
+      timeline: 4,
+      stanLee:
+        "Accidentally ingests a drink with Bruce Banner's blood in it, then falls ill to gamma radiation sickness"
     },
     {
       name: "Thor (2011)",
@@ -61,7 +67,9 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 3,
       moreInfo: false,
-      timeline: 5
+      timeline: 5,
+      stanLee:
+        "He tears the bed of his pickup truck off while trying to pull Thor's hammer out of the ground."
     },
     {
       name: "Captain America: The First Avenger (2011)",
@@ -74,7 +82,8 @@ export class CheckListComponent implements OnInit {
       postScene: "1 - Avengers Trailer",
       suggested: 4,
       moreInfo: false,
-      timeline: 0
+      timeline: 0,
+      stanLee: "Audience member at Captain America's award ceremony."
     },
     {
       name: "Avengers (2012)",
@@ -87,7 +96,9 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 5,
       moreInfo: false,
-      timeline: 6
+      timeline: 6,
+      stanLee:
+        "Stan is being interviewed in the park at the end of the film about the Avengers."
     },
     {
       name: "Ironman 3 (2013)",
@@ -100,7 +111,9 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 6,
       moreInfo: false,
-      timeline: 7
+      timeline: 7,
+      stanLee:
+        "He is a beauty pageant judge, and is seen on the monitor in the news truck."
     },
     {
       name: "Thor: Dark World (2013)",
@@ -113,7 +126,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 7,
       moreInfo: false,
-      timeline: 8
+      timeline: 8,
+      stanLee: "A fellow patient of Dr. Eric Selvig's at the mental hospital."
     },
     {
       name: "Captain America: The Winter Soldier (2014)",
@@ -126,7 +140,9 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 8,
       moreInfo: false,
-      timeline: 9
+      timeline: 9,
+      stanLee:
+        "He is the security guard who notices that Captain America's uniform has been stolen."
     },
     {
       name: "Guardians of the Galaxy (2014)",
@@ -139,7 +155,9 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 9,
       moreInfo: false,
-      timeline: 10
+      timeline: 10,
+      stanLee:
+        "He's an older gentlemen talking to a much younger women on Xandar, while Rocket and Groot are looking for people with rewards for catching them."
     },
     {
       name: "Avengers: Age of Ultron (2015)",
@@ -152,7 +170,8 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 10,
       moreInfo: false,
-      timeline: 12
+      timeline: 12,
+      stanLee: "Is a WWII veteran at the Avenger's Party."
     },
     {
       name: "Ant-man (2015)",
@@ -165,10 +184,11 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 11,
       moreInfo: false,
-      timeline: 13
+      timeline: 13,
+      stanLee: "Appears as a bartender in one of Luis' stories."
     },
     {
-      name: "Captain Amercia: Civil War (2016)",
+      name: "Captain America: Civil War (2016)",
       poster: "captainAmericaThree.jpg",
       imdb: "https://www.imdb.com/title/tt3498820",
       description:
@@ -178,10 +198,12 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 12,
       moreInfo: false,
-      timeline: 14
+      timeline: 14,
+      stanLee:
+        "He is the FedEx delivery person, who miss pronounces 'Tony Stark' as 'Tony Stank'."
     },
     {
-      name: "Spiderman:Homecoming (2017)",
+      name: "Spider-man:Homecoming (2017)",
       poster: "spidemanOne.jpg",
       imdb: "https://www.imdb.com/title/tt2250912",
       description:
@@ -191,7 +213,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 13,
       moreInfo: false,
-      timeline: 15
+      timeline: 15,
+      stanLee: "Stan is Gary the Neighbor, who threatens to come downstairs."
     },
     {
       name: "Black Panther (2018)",
@@ -204,7 +227,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 14,
       moreInfo: false,
-      timeline: 17
+      timeline: 17,
+      stanLee: "Is a patron in the Casino in Busan, South Korea"
     },
     {
       name: "Guardians of the Galaxy Vol. 2 (2017)",
@@ -217,7 +241,9 @@ export class CheckListComponent implements OnInit {
       postScene: "5",
       suggested: 15,
       moreInfo: false,
-      timeline: 11
+      timeline: 11,
+      stanLee:
+        "Appears talking to the Watchers, talking about his role as a deliver person in Civil War. Appears as well in the credit scenes."
     },
     {
       name: "Doctor Strange (2016)",
@@ -230,7 +256,9 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 16,
       moreInfo: false,
-      timeline: 16
+      timeline: 16,
+      stanLee:
+        "Appears as a bus rider, reading Aldous Huxley's 'The Doors of Perception', while Doctor Strange is in a fight."
     },
     {
       name: "Thor: Raganarok (2017)",
@@ -243,7 +271,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 17,
       moreInfo: false,
-      timeline: 18
+      timeline: 18,
+      stanLee: "Appears as the crazy man who cuts Thor's Hair."
     },
     {
       name: "Avengers: Infinity War (2018)",
@@ -256,7 +285,8 @@ export class CheckListComponent implements OnInit {
       postScene: "1",
       suggested: 18,
       moreInfo: false,
-      timeline: 20
+      timeline: 20,
+      stanLee: "Appears as Peter Parker's bus driver."
     },
     {
       name: "Ant-man and the Wasp (2018)",
@@ -269,7 +299,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 19,
       moreInfo: false,
-      timeline: 19
+      timeline: 19,
+      stanLee: "His car is shrunk by Wasp, makes a comment about past drug use."
     },
     {
       name: "Captain Marvel (2019)",
@@ -282,7 +313,9 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 20,
       moreInfo: false,
-      timeline: 1
+      timeline: 1,
+      stanLee:
+        "Working on one of his comics on the bus. He last cameo, he'll be missed."
     },
     {
       name: "Avengers: Endgame (2019)",
@@ -295,10 +328,12 @@ export class CheckListComponent implements OnInit {
       postScene: "1 - Added after Film came out, Spiderman Trailer",
       suggested: 21,
       moreInfo: false,
-      timeline: 21
+      timeline: 21,
+      stanLee:
+        "Appears as a digitally de-aged driving past the military base in 1970."
     },
     {
-      name: "Spiderman: Far From Home (2019)",
+      name: "Spider-man: Far From Home (2019)",
       poster: "spidermanTwo.jpg",
       imdb: "https://www.imdb.com/title/tt6320628",
       description:
@@ -308,7 +343,8 @@ export class CheckListComponent implements OnInit {
       postScene: "2",
       suggested: 22,
       moreInfo: false,
-      timeline: 22
+      timeline: 22,
+      stanLee: "Does not appear. Excelsior."
     }
   ];
   movies: any[];
