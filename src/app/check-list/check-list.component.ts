@@ -466,7 +466,7 @@ export class CheckListComponent implements OnInit {
       film.marked = "false";
     });
     this.cookieService.deleteAll();
-    // this.startCookies();
+    this.startCookies();
   }
   checkBox(n: number) {
     if (this.cookieService.get(`${this.films[n].cookie}`) === "false") {
