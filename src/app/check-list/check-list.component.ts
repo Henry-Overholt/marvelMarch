@@ -20,15 +20,13 @@ export class CheckListComponent implements OnInit {
       description:
         "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("ironmanOne"),
       marked: this.cookieService.get("ironmanOne"),
       postScene: "1",
       suggested: 0,
       moreInfo: false,
       timeline: 2,
       cookie: "ironmanOne",
-      stanLee:
-        "Tony mistakes him for Hugh Hefner on the Stark banquet red carpet."
+      stanLee: "Appears as Hugh Hefner on the Stark banquet red carpet."
     },
     {
       name: "Ironman 2 (2010)",
@@ -37,7 +35,6 @@ export class CheckListComponent implements OnInit {
       description:
         "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("ironmanTwo"),
       marked: this.cookieService.get("ironmanTwo"),
       postScene: "1",
       suggested: 1,
@@ -45,7 +42,7 @@ export class CheckListComponent implements OnInit {
       timeline: 3,
       cookie: "ironmanTwo",
       stanLee:
-        "Tony mistakes him for Larry King after his intro speech at the Expo."
+        "Appears as Larry King after his opening presentation at the Stark Expo."
     },
     {
       name: "The Incredible Hulk (2008)",
@@ -54,7 +51,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.",
       streaming: "amazonVideo.png",
-      watched: this.cookieService.get("hulkOne"),
       marked: this.cookieService.get("hulkOne"),
       postScene: "1",
       suggested: 2,
@@ -71,7 +67,6 @@ export class CheckListComponent implements OnInit {
       description:
         "The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("thorOne"),
       marked: this.cookieService.get("thorOne"),
       postScene: "1",
       suggested: 3,
@@ -88,14 +83,14 @@ export class CheckListComponent implements OnInit {
       description:
         "Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a 'Super-Soldier serum'. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("captainAmericaOne"),
       marked: this.cookieService.get("captainAmericaOne"),
       postScene: "1 - Avengers Trailer",
       suggested: 4,
       moreInfo: false,
       timeline: 0,
       cookie: "captainAmericaOne",
-      stanLee: "Audience member at Captain America's award ceremony."
+      stanLee:
+        "Appears as an audience member at Captain America's award ceremony."
     },
     {
       name: "Avengers (2012)",
@@ -104,7 +99,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("avengersOne"),
       marked: this.cookieService.get("avengersOne"),
       postScene: "2",
       suggested: 5,
@@ -112,7 +106,7 @@ export class CheckListComponent implements OnInit {
       timeline: 6,
       cookie: "avengersOne",
       stanLee:
-        "Stan is being interviewed in the park at the end of the film about the Avengers."
+        "Appears as one of the people being interviewed in the park at the end of the film about the Avengers."
     },
     {
       name: "Ironman 3 (2013)",
@@ -121,7 +115,6 @@ export class CheckListComponent implements OnInit {
       description:
         "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("ironmanThree"),
       marked: this.cookieService.get("ironmanThree"),
       postScene: "1",
       suggested: 6,
@@ -129,7 +122,7 @@ export class CheckListComponent implements OnInit {
       timeline: 7,
       cookie: "ironmanThree",
       stanLee:
-        "He is a beauty pageant judge, and is seen on the monitor in the news truck."
+        "Appears as a beauty pageant judge, and is seen on the monitor in the news truck awarded a 10 to a contestant."
     },
     {
       name: "Thor: Dark World (2013)",
@@ -138,14 +131,14 @@ export class CheckListComponent implements OnInit {
       description:
         "When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("thorTwo"),
       marked: this.cookieService.get("thorTwo"),
       postScene: "2",
       suggested: 7,
       moreInfo: false,
       timeline: 8,
       cookie: "thorTwo",
-      stanLee: "A fellow patient of Dr. Eric Selvig's at the mental hospital."
+      stanLee:
+        "Appears as a fellow patient of Dr. Eric Selvig's at the mental hospital."
     },
     {
       name: "Captain America: The Winter Soldier (2014)",
@@ -154,7 +147,6 @@ export class CheckListComponent implements OnInit {
       description:
         "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("captainAmericaTwo"),
       marked: this.cookieService.get("captainAmericaTwo"),
       postScene: "2",
       suggested: 8,
@@ -162,7 +154,7 @@ export class CheckListComponent implements OnInit {
       timeline: 9,
       cookie: "captainAmericaTwo",
       stanLee:
-        "He is the security guard who notices that Captain America's uniform has been stolen."
+        "He is the security guard that notices that Captain America's uniform has been stolen."
     },
     {
       name: "Guardians of the Galaxy (2014)",
@@ -171,7 +163,6 @@ export class CheckListComponent implements OnInit {
       description:
         "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("guardiansOne"),
       marked: this.cookieService.get("guardiansOne"),
       postScene: "2",
       suggested: 9,
@@ -179,7 +170,7 @@ export class CheckListComponent implements OnInit {
       timeline: 10,
       cookie: "guardiansOne",
       stanLee:
-        "He's an older gentlemen talking to a much younger women on Xandar, while Rocket and Groot are looking for people with rewards for catching them."
+        "He's an older gentlemen talking to a much younger women on Xandar, while Rocket and Groot are looking for people with sizeable rewards for their capture."
     },
     {
       name: "Avengers: Age of Ultron (2015)",
@@ -188,14 +179,13 @@ export class CheckListComponent implements OnInit {
       description:
         "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("avengersTwo"),
       marked: this.cookieService.get("avengersTwo"),
       postScene: "1",
       suggested: 10,
       moreInfo: false,
       timeline: 12,
       cookie: "avengersTwo",
-      stanLee: "Is a WWII veteran at the Avenger's Party."
+      stanLee: "Appears as a WWII veteran at the Avenger's Party."
     },
     {
       name: "Ant-man (2015)",
@@ -204,7 +194,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("antmanOne"),
       marked: this.cookieService.get("antmanOne"),
       postScene: "2",
       suggested: 11,
@@ -220,7 +209,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("captainAmericaThree"),
       marked: this.cookieService.get("captainAmericaThree"),
       postScene: "2",
       suggested: 12,
@@ -237,7 +225,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.",
       streaming: "starz.png",
-      watched: this.cookieService.get("spidermanOne"),
       marked: this.cookieService.get("spidermanOne"),
       postScene: "2",
       suggested: 13,
@@ -253,14 +240,13 @@ export class CheckListComponent implements OnInit {
       description:
         "T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("blackPantherOne"),
       marked: this.cookieService.get("blackPantherOne"),
       postScene: "2",
       suggested: 14,
       moreInfo: false,
       timeline: 17,
       cookie: "blackPantherOne",
-      stanLee: "Is a patron in the Casino in Busan, South Korea"
+      stanLee: "Appears as a patron in the Casino in Busan, South Korea"
     },
     {
       name: "Guardians of the Galaxy Vol. 2 (2017)",
@@ -269,7 +255,6 @@ export class CheckListComponent implements OnInit {
       description:
         "he Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("guardiansTwo"),
       marked: this.cookieService.get("guardiansTwo"),
       postScene: "5",
       suggested: 15,
@@ -286,7 +271,6 @@ export class CheckListComponent implements OnInit {
       description:
         "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("strangeOne"),
       marked: this.cookieService.get("strangeOne"),
       postScene: "2",
       suggested: 16,
@@ -295,7 +279,7 @@ export class CheckListComponent implements OnInit {
       timeline: 16,
       cookie: "strangeOne",
       stanLee:
-        "Appears as a bus rider, reading Aldous Huxley's 'The Doors of Perception', while Doctor Strange is in a fight."
+        "Appears as a bus rider, reading Aldous Huxley's 'The Doors of Perception', while oblivious of Doctor Strange's fight going on around him."
     },
     {
       name: "Thor: Raganarok (2017)",
@@ -304,7 +288,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("thorThree"),
       marked: this.cookieService.get("thorThree"),
       postScene: "2",
       suggested: 17,
@@ -320,7 +303,6 @@ export class CheckListComponent implements OnInit {
       description:
         "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
       streaming: "netflix.png",
-      watched: this.cookieService.get("avengersThree"),
       marked: this.cookieService.get("avengersThree"),
       postScene: "1",
       suggested: 18,
@@ -336,14 +318,14 @@ export class CheckListComponent implements OnInit {
       description:
         "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
       streaming: "netflix.png",
-      watched: this.cookieService.get("antmanTwo"),
       marked: this.cookieService.get("antmanTwo"),
       postScene: "2",
       suggested: 19,
       moreInfo: false,
       timeline: 19,
       cookie: "antmanTwo",
-      stanLee: "His car is shrunk by Wasp, makes a comment about past drug use."
+      stanLee:
+        "His car is shrunk by the Wasp, makes a comment about past drug use coming back to bite him."
     },
     {
       name: "Captain Marvel (2019)",
@@ -352,7 +334,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("captainMarvelOne"),
       marked: this.cookieService.get("captainMarvelOne"),
       postScene: "2",
       suggested: 20,
@@ -369,7 +350,6 @@ export class CheckListComponent implements OnInit {
       description:
         "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
       streaming: "disneyPlus.svg",
-      watched: this.cookieService.get("avengersFour"),
       marked: this.cookieService.get("avengersFour"),
       postScene: "1 - Added after Film came out, Spiderman Trailer",
       suggested: 21,
@@ -377,7 +357,7 @@ export class CheckListComponent implements OnInit {
       timeline: 21,
       cookie: "avengersFour",
       stanLee:
-        "Appears as a digitally de-aged driving past the military base in 1970."
+        "Appears posthumous as a digitally de-aged driving past the military base in 1970."
     },
     {
       name: "Spider-man: Far From Home (2019)",
@@ -386,7 +366,6 @@ export class CheckListComponent implements OnInit {
       description:
         "Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever.",
       streaming: "amazonVideo.png",
-      watched: this.cookieService.get("spidermanTwo"),
       marked: this.cookieService.get("spidermanTwo"),
       postScene: "2",
       suggested: 22,
@@ -479,6 +458,9 @@ export class CheckListComponent implements OnInit {
     //this.films[n].watched = !this.films[n].watched;
   }
   showMoreInfo(n: number) {
+    this.films.forEach(film => {
+      film.moreInfo = false;
+    });
     this.films[n].moreInfo = !this.films[n].moreInfo;
   }
 }
