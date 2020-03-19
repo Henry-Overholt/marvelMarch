@@ -345,7 +345,7 @@ export class CheckListComponent implements OnInit {
     },
     {
       name: "Avengers: Endgame (2019)",
-      poster: "guardiansOne.jpg",
+      poster: "endgame.jpg",
       imdb: "https://www.imdb.com/title/tt4154796",
       description:
         "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
@@ -458,9 +458,15 @@ export class CheckListComponent implements OnInit {
     //this.films[n].watched = !this.films[n].watched;
   }
   showMoreInfo(n: number) {
-    this.films.forEach(film => {
-      film.moreInfo = false;
-    });
-    this.films[n].moreInfo = !this.films[n].moreInfo;
+    if (this.films[n].moreInfo === true) {
+      this.films.forEach(film => {
+        film.moreInfo = false;
+      });
+    } else {
+      this.films.forEach(film => {
+        film.moreInfo = false;
+      });
+      this.films[n].moreInfo = !this.films[n].moreInfo;
+    }
   }
 }
