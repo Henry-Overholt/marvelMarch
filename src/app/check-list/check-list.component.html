@@ -32,6 +32,9 @@
         </button>
       </div>
     </div>
+    <div id="reset">
+      <button class="reset" (click)="reset()">Reset</button>
+    </div>
     <div id="films">
       <div class="film" *ngFor="let movie of movies; index as i">
         <h3 class="movieTitle">{{ movie.name }}</h3>
@@ -43,7 +46,10 @@
           />
           <div class="checklist">
             <div class="checkbox" (click)="checkBox(i)">
-              <i *ngIf="movie.watched" class="fas fa-check"></i>
+              <i
+                [ngClass]="movie.marked == 'true' ? 'show' : 'hide'"
+                class="fas fa-check"
+              ></i>
             </div>
 
             <img
@@ -54,9 +60,7 @@
           </div>
           <div class="moreInfo hideMobile">
             <p class="summary"><span>Summary:</span> {{ movie.description }}</p>
-            <p>
-              Stan Lee Cameo: <span>{{ movie.stanLee }}</span>
-            </p>
+            <p><span>Stan Lee Cameo:</span> {{ movie.stanLee }}</p>
             <p>
               Number of credit scenes :
               <span> {{ movie.postScene }} </span>
@@ -70,9 +74,7 @@
         <button class="showMobile" (click)="showMoreInfo(i)">More Info</button>
         <div class="moreInfo" *ngIf="movie.moreInfo">
           <p><span>Summary:</span> {{ movie.description }}</p>
-          <p>
-            Stan Lee Cameo: <span>{{ movie.stanLee }}</span>
-          </p>
+          <p><span>Stan Lee Cameo:</span> {{ movie.stanLee }}</p>
           <p>
             Number of credit scenes :
             <span> {{ movie.postScene }} </span>
