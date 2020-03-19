@@ -455,7 +455,6 @@ export class CheckListComponent implements OnInit {
       this.cookieService.set(`${this.films[n].cookie}`, "false");
       this.films[n].marked = "false";
     }
-    //this.films[n].watched = !this.films[n].watched;
   }
   showMoreInfo(n: number) {
     if (this.films[n].moreInfo === true) {
