@@ -5,7 +5,7 @@ import { THIS_EXPR } from "@angular/compiler/src/output/output_ast";
 @Component({
   selector: "app-check-list",
   templateUrl: "./check-list.component.html",
-  styleUrls: ["./check-list.component.css"]
+  styleUrls: ["./check-list.component.css"],
 })
 export class CheckListComponent implements OnInit {
   showDirections: boolean = false;
@@ -26,7 +26,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 2,
       cookie: "ironmanOne",
-      stanLee: "Appears as Hugh Hefner on the Stark banquet red carpet."
+      stanLee: "Appears as Hugh Hefner on the Stark banquet red carpet.",
     },
     {
       name: "Ironman 2 (2010)",
@@ -42,7 +42,7 @@ export class CheckListComponent implements OnInit {
       timeline: 3,
       cookie: "ironmanTwo",
       stanLee:
-        "Appears as Larry King after his opening presentation at the Stark Expo."
+        "Appears as Larry King after his opening presentation at the Stark Expo.",
     },
     {
       name: "The Incredible Hulk (2008)",
@@ -58,7 +58,7 @@ export class CheckListComponent implements OnInit {
       timeline: 4,
       cookie: "hulkOne",
       stanLee:
-        "Accidentally ingests a drink with Bruce Banner's blood in it, then falls ill to gamma radiation sickness"
+        "Accidentally ingests a drink with Bruce Banner's blood in it, then falls ill to gamma radiation sickness",
     },
     {
       name: "Thor (2011)",
@@ -74,7 +74,7 @@ export class CheckListComponent implements OnInit {
       timeline: 5,
       cookie: "thorOne",
       stanLee:
-        "He tears the bed of his pickup truck off while trying to pull Thor's hammer out of the ground."
+        "He tears the bed of his pickup truck off while trying to pull Thor's hammer out of the ground.",
     },
     {
       name: "Captain America: The First Avenger (2011)",
@@ -90,7 +90,7 @@ export class CheckListComponent implements OnInit {
       timeline: 0,
       cookie: "captainAmericaOne",
       stanLee:
-        "Appears as an audience member at Captain America's award ceremony."
+        "Appears as an audience member at Captain America's award ceremony.",
     },
     {
       name: "Avengers (2012)",
@@ -106,7 +106,7 @@ export class CheckListComponent implements OnInit {
       timeline: 6,
       cookie: "avengersOne",
       stanLee:
-        "Appears as one of the people being interviewed in the park at the end of the film about the Avengers."
+        "Appears as one of the people being interviewed in the park at the end of the film about the Avengers.",
     },
     {
       name: "Ironman 3 (2013)",
@@ -122,7 +122,7 @@ export class CheckListComponent implements OnInit {
       timeline: 7,
       cookie: "ironmanThree",
       stanLee:
-        "Appears as a beauty pageant judge, and is seen on the monitor in the news truck awarded a 10 to a contestant."
+        "Appears as a beauty pageant judge, and is seen on the monitor in the news truck awarded a 10 to a contestant.",
     },
     {
       name: "Thor: Dark World (2013)",
@@ -138,7 +138,7 @@ export class CheckListComponent implements OnInit {
       timeline: 8,
       cookie: "thorTwo",
       stanLee:
-        "Appears as a fellow patient of Dr. Eric Selvig's at the mental hospital."
+        "Appears as a fellow patient of Dr. Eric Selvig's at the mental hospital.",
     },
     {
       name: "Captain America: The Winter Soldier (2014)",
@@ -154,7 +154,7 @@ export class CheckListComponent implements OnInit {
       timeline: 9,
       cookie: "captainAmericaTwo",
       stanLee:
-        "He is the security guard that notices that Captain America's uniform has been stolen."
+        "He is the security guard that notices that Captain America's uniform has been stolen.",
     },
     {
       name: "Guardians of the Galaxy (2014)",
@@ -170,7 +170,7 @@ export class CheckListComponent implements OnInit {
       timeline: 10,
       cookie: "guardiansOne",
       stanLee:
-        "He's an older gentlemen talking to a much younger women on Xandar, while Rocket and Groot are looking for people with sizeable rewards for their capture."
+        "He's an older gentlemen talking to a much younger women on Xandar, while Rocket and Groot are looking for people with sizeable rewards for their capture.",
     },
     {
       name: "Avengers: Age of Ultron (2015)",
@@ -185,7 +185,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 12,
       cookie: "avengersTwo",
-      stanLee: "Appears as a WWII veteran at the Avenger's Party."
+      stanLee: "Appears as a WWII veteran at the Avenger's Party.",
     },
     {
       name: "Ant-man (2015)",
@@ -200,7 +200,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 13,
       cookie: "antmanOne",
-      stanLee: "Appears as a bartender in one of Luis' stories."
+      stanLee: "Appears as a bartender in one of Luis' stories.",
     },
     {
       name: "Captain America: Civil War (2016)",
@@ -216,7 +216,7 @@ export class CheckListComponent implements OnInit {
       timeline: 14,
       cookie: "captainAmericaThree",
       stanLee:
-        "He is the FedEx delivery person, who miss pronounces 'Tony Stark' as 'Tony Stank'."
+        "He is the FedEx delivery person, who miss pronounces 'Tony Stark' as 'Tony Stank'.",
     },
     {
       name: "Spider-man:Homecoming (2017)",
@@ -231,7 +231,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 15,
       cookie: "spidermanOne",
-      stanLee: "Stan is Gary the Neighbor, who threatens to come downstairs."
+      stanLee: "Stan is Gary the Neighbor, who threatens to come downstairs.",
     },
     {
       name: "Black Panther (2018)",
@@ -246,7 +246,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 17,
       cookie: "blackPantherOne",
-      stanLee: "Appears as a patron in the Casino in Busan, South Korea"
+      stanLee: "Appears as a patron in the Casino in Busan, South Korea",
     },
     {
       name: "Guardians of the Galaxy Vol. 2 (2017)",
@@ -262,7 +262,7 @@ export class CheckListComponent implements OnInit {
       timeline: 11,
       cookie: "guardiansTwo",
       stanLee:
-        "Appears talking to the Watchers, talking about his role as a deliver person in Civil War. Appears as well in the credit scenes."
+        "Appears talking to the Watchers, talking about his role as a deliver person in Civil War. Appears as well in the credit scenes.",
     },
     {
       name: "Doctor Strange (2016)",
@@ -279,7 +279,7 @@ export class CheckListComponent implements OnInit {
       timeline: 16,
       cookie: "strangeOne",
       stanLee:
-        "Appears as a bus rider, reading Aldous Huxley's 'The Doors of Perception', while oblivious of Doctor Strange's fight going on around him."
+        "Appears as a bus rider, reading Aldous Huxley's 'The Doors of Perception', while oblivious of Doctor Strange's fight going on around him.",
     },
     {
       name: "Thor: Raganarok (2017)",
@@ -294,7 +294,7 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 18,
       cookie: "thorThree",
-      stanLee: "Appears as the crazy man who cuts Thor's Hair."
+      stanLee: "Appears as the crazy man who cuts Thor's Hair.",
     },
     {
       name: "Avengers: Infinity War (2018)",
@@ -302,14 +302,14 @@ export class CheckListComponent implements OnInit {
       imdb: "https://www.imdb.com/title/tt4154756",
       description:
         "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
-      streaming: "netflix.png",
+      streaming: "disneyPlus.svg",
       marked: this.cookieService.get("avengersThree"),
       postScene: "1",
       suggested: 18,
       moreInfo: false,
       timeline: 20,
       cookie: "avengersThree",
-      stanLee: "Appears as Peter Parker's bus driver."
+      stanLee: "Appears as Peter Parker's bus driver.",
     },
     {
       name: "Ant-man and the Wasp (2018)",
@@ -325,7 +325,7 @@ export class CheckListComponent implements OnInit {
       timeline: 19,
       cookie: "antmanTwo",
       stanLee:
-        "His car is shrunk by the Wasp, makes a comment about past drug use coming back to bite him."
+        "His car is shrunk by the Wasp, makes a comment about past drug use coming back to bite him.",
     },
     {
       name: "Captain Marvel (2019)",
@@ -341,7 +341,7 @@ export class CheckListComponent implements OnInit {
       timeline: 1,
       cookie: "captainMarvelOne",
       stanLee:
-        "Working on one of his comics on the bus. He last cameo, he'll be missed."
+        "Working on one of his comics on the bus. He last cameo, he'll be missed.",
     },
     {
       name: "Avengers: Endgame (2019)",
@@ -357,7 +357,7 @@ export class CheckListComponent implements OnInit {
       timeline: 21,
       cookie: "avengersFour",
       stanLee:
-        "Appears posthumous as a digitally de-aged driving past the military base in 1970."
+        "Appears posthumous as a digitally de-aged driving past the military base in 1970.",
     },
     {
       name: "Spider-man: Far From Home (2019)",
@@ -372,8 +372,8 @@ export class CheckListComponent implements OnInit {
       moreInfo: false,
       timeline: 22,
       cookie: "spidermanTwo",
-      stanLee: "Does not appear. Excelsior."
-    }
+      stanLee: "Does not appear. Excelsior.",
+    },
   ];
   movies: any[];
   constructor(private cookieService: CookieService) {}
@@ -409,7 +409,7 @@ export class CheckListComponent implements OnInit {
       this.cookieService.set("strangeOne", "false");
       this.cookieService.set("hulkOne", "false");
     } else if (this.cookieService.get("start") == "false") {
-      this.films.forEach(film => {
+      this.films.forEach((film) => {
         film.marked = false;
       });
     }
@@ -441,7 +441,7 @@ export class CheckListComponent implements OnInit {
     }
   }
   reset() {
-    this.films.forEach(film => {
+    this.films.forEach((film) => {
       film.marked = "false";
     });
     this.cookieService.deleteAll();
@@ -458,11 +458,11 @@ export class CheckListComponent implements OnInit {
   }
   showMoreInfo(n: number) {
     if (this.films[n].moreInfo === true) {
-      this.films.forEach(film => {
+      this.films.forEach((film) => {
         film.moreInfo = false;
       });
     } else {
-      this.films.forEach(film => {
+      this.films.forEach((film) => {
         film.moreInfo = false;
       });
       this.films[n].moreInfo = !this.films[n].moreInfo;
